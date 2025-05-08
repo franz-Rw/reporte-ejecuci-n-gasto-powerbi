@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reporte - Municipalidad de Condorcanqui</title>
+  <title>Municipalidad de Condorcanqui</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Segoe+UI:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
@@ -232,7 +232,7 @@
   <header>
     <div class="header-content">
       <div class="logo-container">
-        <img src="/logo/LogoBlancoMPC-UnaLinea.png" alt="Logo Municipalidad" class="logo-img">
+        <img src="logo/LogoBlancoMPC-UnaLinea.png" alt="Logo Municipalidad" class="logo-img">
         <div class="logo-text">Municipalidad Provincial de Condorcanqui</div>
       </div>
       <div class="current-date" id="current-date"></div>
@@ -255,7 +255,7 @@
       
       <div class="footer-section">
         <div class="footer-info">
-          <img src="/iconos/map-pin.svg" alt="Ubicación" class="footer-icon">
+          <img src="iconos/map-pin.svg" alt="Ubicación" class="footer-icon">
           <span>Calle Gonzalo Puerta N° 100 - Distrito de Nieva, Provincia de Condorcanqui, Departamento de Amazonas.</span>
         </div>
       </div>
@@ -275,7 +275,7 @@
   
   <!-- Botón flotante compartir -->
   <div class="share-btn" onclick="shareReport()">
-    <img src="/iconos/share-2.svg" alt="Compartir" class="share-icon">
+    <img src="iconos/share-2.svg" alt="Compartir" class="share-icon">
   </div>
   
   <script>
@@ -309,8 +309,8 @@
       
       if (navigator.share) {
         navigator.share({
-          title: 'Reporte - Municipalidad de Condorcanqui',
-          text: 'Mira este reporte oficial de la Municipalidad Provincial de Condorcanqui',
+          title: 'Reporte de ejecución presupuestal - Municipalidad de Condorcanqui',
+          text: 'Mira este reporte oficial de la ejecución presupuestal de la Municipalidad Provincial de Condorcanqui',
           url: shareUrl
         }).catch(err => {
           console.log('Error al compartir:', err);
